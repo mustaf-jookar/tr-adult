@@ -1,0 +1,141 @@
+body{
+	height:100%;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	height:100%;
+	margin-left:-10px;
+	margin-top:-10px;
+}
+.web-header{
+	width:100%;
+	height:90px;
+	font-size:10px;
+	position:fixed;
+	z-index:10;
+	background-color:white;
+}
+.logo{
+	width:80px;
+	height:80px;
+	margin-left:120px;
+	float:left;
+	margin-top:5px;
+}
+.ciwaan{
+	width:500px;
+	margin-left:-120px;
+	text-align:center;
+	margin-top:30px;
+	color:brown;	
+	font-family:Cooper Black;
+}
+.topnav{
+	width:100%;
+	height:50px;
+	background: hsla(356, 76%, 50%, 1);
+	background: linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(14, 63%, 36%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(14, 63%, 36%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(14, 63%, 36%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e01f2d", endColorstr="#943c22", GradientType=1 );
+	text-align:center;
+	padding-top:1px;
+	box-sizing:border-box;
+	font-size:20px;
+	margin-top:0px;
+}
+.topnav a{
+	display:inline;
+	text-decoration:none;
+	color:white;
+	margin-left:10px;
+	border-right:1px solid white;
+	padding-right:10px;
+	
+}
+.topnav ul li{
+	display:inline;
+	list-style-type:none;
+	width:100%;
+	transition:350ms all linear;
+}
+#navlist:hover{
+	border-bottom:3px solid yellow;
+	color:yellow;
+}
+.web-content{
+	position:absolute;
+	width:100%;
+	height:1100px;
+	margin-top:100px;
+	z-index:0;
+}
+#sawir{
+	width:100%;
+	height:400px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.png);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+@keyframes animate{
+	0%{
+		color:brown;
+		background-color:white;
+		border:2px solid brown;
+	}
+	25%{
+		color:white;
+		background-color:brown;
+		border:2px solid white;
+	}
+	50%{
+		color:brown;
+		background-color:white;
+		border:2px solid brown;
+	}
+	75%{
+		color:white;
+		background-color:brown;
+		border:2px solid white;
+	}
+	100%{
+		color:brown;
+		background-color:white;
+		border:2px solid brown;
+	}
+}
+#btn{
+	width:450px;
+	height:80px;
+	background-color:white;
+	color:brown;
+	margin-left:450px;
+	margin-top:160px;
+	border:2px solid brown;
+	border-radius:20px 20px 20px 20px;
+	font-size:25px;
+	opacity:1;
+	animation-name:animate;
+	animation-duration:10s;
+	animation-timing-function:ease-in;
+	animation-iteration-count:infinite;
+}
+#courses{
+	width:980px;
+	height:300px;
+	margin-left:125px;
+	margin-top:500px;
+	text-align:center;
+}
+#ciwaan-courses{
+	width:400px;
+	font-size:35px;
+	color:brown;
+	border-bottom:3px solid brown;
+	margin-left:340px;
+}
+#intro{
+	font-size:20px;
+}
